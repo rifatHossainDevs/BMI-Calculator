@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">MyBMI</string>
     <string name="see_suggestion">See Suggestion</string>
-    <string name="click_here_to_get_resource_link"><![CDATA[Click here to get Resource Link>>]]></string>
+    <string name="click_here_to_get_resource_link"><![CDATA[Click here to get Resource Link >>]]></string>
 </resources>
