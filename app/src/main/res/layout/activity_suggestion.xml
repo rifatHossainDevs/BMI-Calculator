@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#121A61"
+    tools:context=".starter.SuggestionActivity">
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#00bcd4"
+        android:id="@+id/categoryTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:fontFamily="@font/anton"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Category: "
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:backgroundTint="#00bcd4"
+        android:id="@+id/goalTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:text="Goal : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/categoryTv" />
+
+    <TextView
+        android:backgroundTint="#00bcd4"
+        android:id="@+id/mealPlanTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:text="Meal Plan : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goalTv" />
+
+    <TextView
+        android:backgroundTint="#00bcd4"
+        android:id="@+id/exerciseTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:text="Exercice : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mealPlanTv" />
+
+    <TextView
+        android:id="@+id/resourceTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:text="Click here to get Resource Link"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/exerciseTv" />
+
+
+    <TextView
+        android:id="@+id/warningTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/adamina"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="Warning!! \nRemember, individual needs vary. Consulting with a healthcare provider or registered dietitian"
+        android:textColor="#FA0202"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
